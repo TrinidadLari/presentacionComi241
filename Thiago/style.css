@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.Thi_Body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.Thi_Bimg{
+    height: 40px;
+}
+.Thi_Cards{
+    border: 2px solid red;
+    width: 350px;
+    border-radius: 10px;
+    background-color: aqua;
+    font-family: 'Franklin Gothic Medium';
+    margin-top: 20px;
+    margin-bottom: 20px; 
+    align-items: center;
+}
+.Thi_Cimg{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px; 
+}
+.Thi_Buttons{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+.Thi_H2 {
+    text-align: center;
+    font-family: Cambria;
+    font-size: 30px;
+}
+.Thi_Header{
+    background-color: deepskyblue;
+    text-align: center;
+}
+.Thi_Footer{
+    background-color: deepskyblue;
+    align-content: center;
+    text-align: center;
+    padding: 20px;
+}
+.Thi_Carrusel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    gap: 60px;
+}
+.Thi_Main{
+    background-color: steelblue;
+    flex-grow: 1;
+}
+.Thi_H1{
+    margin: auto;
+    padding: 20px;
+}

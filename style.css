@@ -1,0 +1,95 @@
+       .triBody {
+            font-family: "Baskervville SC", serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #f4f4f4;
+        }
+
+        .triHeader {
+            background-color: #4CAF50;
+            font-size: 28px;
+            color: white;
+            padding: 20px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .triCarousel {
+            display: flex;
+            justify-content: center;
+            /* overflow-x: auto; */
+            padding: 20px;
+            gap: 30px;
+            width: 100%;
+            max-width: 1200px;
+        }
+
+        .triCard {
+               width: 300px;
+            /* flex: 0 0 300px; */
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            margin-bottom: 30px;
+       
+        }
+
+        .triCard img {
+            width: 100%;
+            height: auto;
+            border-radius: 50%;
+        }
+
+        .triCard h2 {
+            font-size: 30px;
+            margin: 10px 0;
+        }
+
+        .triCard p {
+            font-size: 16px;
+            color: #5b5b5b;
+        }
+
+        .triButtons {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+            justify-self: end;
+        }
+
+        .triButtons a {
+            text-decoration: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            color: white;
+        }
+
+        .triContact {
+            background-color: #007BFF;
+        }
+
+        .triContact img{
+          height: 24px;
+        }
+
+        .triProject {
+            background-color: #28a745;
+        }
+
+        .triFooter {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            width: 100%;
+            position: fixed;
+            bottom: 0;
+        }
