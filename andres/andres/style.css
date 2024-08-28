@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.andr-boxBotones img {
+    height: 40px;
+}
+.andr-cards{
+    border: 2px solid blue;
+    width: 300px;
+    border-radius: 5px;
+    
+
+}
+.andr-imagen{
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    
+}
+.andr-boxBotones{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+   
+
+}
+.andr-h2{text-align: center;
+    
+}
+.andr-p{text-align:center;
+}
+.andr-header{
+    background-color: rgb(95, 165, 42);
+    height: 100px;
+    color: aliceblue;
+    text-align: center;
+    padding: 20px;
+
+
+}
+.andr-footer{
+    background-color: chocolate;
+    height: 50px;
+    color: aquamarine;
+    text-align: center;
+    padding: 50px;
+
+    }
+    .andr-body{
+        display: flex;
+        flex-direction: column;
+       gap: 80px;
+
+
+    }
+    .andr-contenedor{
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        
+    }
