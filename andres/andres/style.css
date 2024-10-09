@@ -7,7 +7,7 @@
     height: 40px;
 }
 .andr-cards{
-    border: 2px solid blue;
+    border: 2px solid rgb(10, 10, 18);
     width: 300px;
     border-radius: 5px;
     
@@ -20,9 +20,9 @@
     
 }
 .andr-boxBotones{
-    display: flex;
+    display: end;
     justify-content: space-around;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
    
 
 }
@@ -32,7 +32,7 @@
 .andr-p{text-align:center;
 }
 .andr-header{
-    background-color: rgb(95, 165, 42);
+    background-color: rgb(42, 89, 165);
     height: 100px;
     color: aliceblue;
     text-align: center;
